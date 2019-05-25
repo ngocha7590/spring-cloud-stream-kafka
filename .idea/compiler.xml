@@ -8,8 +8,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="service-b" />
         <module name="service-a" />
+        <module name="common" />
         <module name="spring-cloud-stream-sample" />
-        <module name="spring-cloud-stream-kafka" />
       </profile>
     </annotationProcessing>
   </component>
