@@ -8,20 +8,17 @@
         <outputRelativeToContentRoot value="true" />
         <module name="service-b" />
         <module name="common" />
-        <module name="service-a (1) (com.example)" />
+        <module name="service-a" />
         <module name="spring-cloud-stream-sample" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="spring-cloud-stream-kafka" target="1.5" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="common" options="-parameters" />
+      <module name="common" options="" />
       <module name="service-a" options="-parameters" />
-      <module name="service-a (1) (com.example)" options="-parameters" />
       <module name="service-b" options="-parameters" />
+      <module name="spring-cloud-stream-kafka" options="-parameters" />
     </option>
   </component>
 </project>
